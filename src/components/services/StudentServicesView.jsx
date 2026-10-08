@@ -130,10 +130,11 @@ export default function StudentServicesView() {
             </div>
 
             <div>
-              <label className="block text-xs font-semibold text-slate-700 mb-1">
+              <label htmlFor="service-req-details" className="block text-xs font-semibold text-slate-700 mb-1">
                 Details of your requirement / Deadlines
               </label>
               <textarea
+                id="service-req-details"
                 required
                 rows={3}
                 value={requestDetails}

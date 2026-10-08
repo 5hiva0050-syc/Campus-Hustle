@@ -128,10 +128,11 @@ export default function QuickSellModal() {
             {/* Title & Price */}
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
               <div className="sm:col-span-2">
-                <label className="block text-xs font-semibold text-slate-700 mb-1">
+                <label htmlFor="quick-sell-title" className="block text-xs font-semibold text-slate-700 mb-1">
                   Product Name / Title *
                 </label>
                 <input
+                  id="quick-sell-title"
                   type="text"
                   required
                   value={title}

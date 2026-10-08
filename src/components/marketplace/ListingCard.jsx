@@ -126,7 +126,8 @@ export default function ListingCard({ listing, onSelect }) {
               <span className="text-xs font-semibold text-slate-700 truncate max-w-[100px]">
                 {listing.seller.name.split(' ')[0]}
               </span>
-              <ShieldCheck className="w-3.5 h-3.5 text-blue-600" />
+              <ShieldCheck className="w-3.5 h-3.5 text-blue-600" title="Campus Verified" aria-label="Campus Verified" />
+              <span className="sr-only">Campus Verified</span>
             </div>
 
             <div className="flex items-center gap-1 text-xs font-semibold text-slate-700">
